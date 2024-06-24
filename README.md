@@ -130,3 +130,7 @@ IBM supports [current public releases](https://golang.org/doc/devel/release.html
 This SDK is distributed under the
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0),
 see LICENSE.txt and NOTICE.txt for more information.
+
+## High Level Design 
+
+![High Level Design](cloud.png)
