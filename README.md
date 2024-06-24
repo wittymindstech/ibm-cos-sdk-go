@@ -61,7 +61,7 @@ Create a file `main.go`, replacing your own values for API key, instance ID, and
 
 ```go
 package main
-[//]: <> (Import the required packages)
+// (Import the required packages)
 import (
  "fmt"
 
@@ -83,6 +83,7 @@ func main() {
  newBucket := "new-bucketee"
  newColdBucket := "new-cold-bucketee"
 
+// load the aws config required to connect with IBM cloud
  conf := aws.NewConfig().
   WithEndpoint(serviceEndpoint).
   WithCredentials(ibmiam.NewStaticCredentials(aws.NewConfig(),
