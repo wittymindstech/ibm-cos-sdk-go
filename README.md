@@ -61,7 +61,7 @@ Create a file `main.go`, replacing your own values for API key, instance ID, and
 
 ```go
 package main
-
+[//]: <> (Import the required packages)
 import (
  "fmt"
 
